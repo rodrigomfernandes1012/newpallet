@@ -16,7 +16,7 @@ COPY . .
 
 # NÃO executar collectstatic aqui!
 # Será executado no comando de start
-
+#teste
 # Expor porta
 EXPOSE 8000
 
