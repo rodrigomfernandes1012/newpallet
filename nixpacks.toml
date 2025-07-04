@@ -1,0 +1,13 @@
+[phases.setup]
+nixPkgs = ['python39', 'postgresql']
+
+[phases.install]
+cmds = ['pip install -r requirements.txt']
+
+[phases.build]
+# Não executar collectstatic durante build
+cmds = []
+
+[start]
+cmd = 'python manage.py migrate && python manage.py collectstatic --noinput && gunicorn pallet_controller.wsgi --bind 0.0.0.0:$PORT'
+
