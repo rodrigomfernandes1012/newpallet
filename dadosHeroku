@@ -1,0 +1,3 @@
+database_url = postgres://u6gt2eidjqq1qd:pb343700543762f270864b76bd2ef5e5966e77a818a2a8ab9bd55b9a916ec9ea7@c7itisjfjj8ril.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/dcnm4ltlburcmq
+secret_key = k7F_L5hWBiXPmYg2Gr7YSmbokzJKXb1T8kqa24NzcsuNpbsMT6e8YuF4DAZ1L03Q
+supabase_key = https://zyeaqpsltgavouygatxs.supabase.co
