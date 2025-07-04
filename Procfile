@@ -1,1 +1,1 @@
-web: gunicorn pallet_controller.wsgi --log-file -
+web: python manage.py migrate && python manage.py collectstatic --noinput && gunicorn pallet_controller.wsgi --bind 0.0.0.0:$PORT
